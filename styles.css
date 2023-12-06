@@ -36,16 +36,10 @@ section {
     margin-bottom: 10px;
 }
 
-.image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .gallery-item {
-    width: calc(48% - 10px);
-    margin-bottom: 20px; /* Added margin to create a gap */
-    position: relative;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 footer {
